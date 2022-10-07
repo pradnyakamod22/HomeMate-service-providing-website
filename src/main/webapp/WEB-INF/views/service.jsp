@@ -58,8 +58,8 @@
                                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Login</a>
                                             <div class="dropdown-menu">
                                                 <a href="/customerlogin" class="dropdown-item">Customer Login</a>
-                                                <a href="Login1.html" class="dropdown-item">Vendor Login</a>
-                                                <a href="logout.html" class="dropdown-item">Admin Login</a>
+                                                <a href="/vendorlogin" class="dropdown-item">Vendor Login</a>
+                                                <a href="/admin" class="dropdown-item">Admin Login</a>
                                             </div>
                                         </div>
                                                                            

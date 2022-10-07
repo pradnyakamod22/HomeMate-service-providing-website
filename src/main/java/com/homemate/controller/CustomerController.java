@@ -120,6 +120,7 @@ public class CustomerController {
 		CustomerTbl customer =  (CustomerTbl)session.getAttribute("customer");
 		int id = customer.getCustomerId();
 		customerdao.updateProfile(id, fname, lname, mobileno, email, address, city, pincode);
+		session.setAttribute("customer", customerdao.getCustomer(id));
 		return "customerhome";
 	}
 
